@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meigenai-io"
+version = "0.1.0"
+description = "Python metadata helper package for https://meigenai.io and Meigen AI publishing workflows"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [{ name = "meigenai.io", email = "support@meigenai.io" }]
+
+[project.urls]
+Homepage = "https://meigenai.io"
+Documentation = "https://meigenai.io/docs"
+Repository = "https://github.com/youram470-art/meigenai-io-python"
+Issues = "https://github.com/youram470-art/meigenai-io-python/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
