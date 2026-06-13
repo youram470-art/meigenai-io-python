@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "meigenai-io"
-version = "0.1.0"
-description = "Python metadata helper package for https://meigenai.io and Meigen AI publishing workflows"
+version = "0.1.1"
+description = "Python metadata and integration helper package for https://meigenai.io and Meigen AI publishing workflows"
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
